@@ -1,0 +1,53 @@
+*{
+    margin: 0 auto;
+    font-family: 'DM Mono', monospace;
+}
+
+.flex-container {
+    margin-top: 100px;
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.flex-item {
+    background-color: #4F772D;
+    height: 75px;
+    font-size: 25px;
+    color: white;
+}
+
+button {
+    outline: none;
+    border-color: lightgray;
+    width: 75px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#display {
+    width: 225px;
+    text-align: right;
+    line-height: 75px;
+}
+
+#display > div {
+    padding-right: 10px;
+}
+
+#op {
+    color: black;
+    background-color: #90A955;
+}
+
+#op:hover {
+    background-color: #4F772D;
+    color: white;
+}
+
+#func:hover {
+    background-color: #90A955;
+}
