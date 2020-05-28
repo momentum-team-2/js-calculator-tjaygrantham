@@ -11,7 +11,7 @@ for(btn of document.getElementsByTagName("button")){
         }
         else{
             if(btn.innerText === 'C')
-                updateDisplay();
+                updateDisplay('');
             else
                 calculate(display.innerText);
         }
