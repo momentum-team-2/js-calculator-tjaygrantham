@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/mathjs@7.0.0/dist/math.min.js"></script>
     <script src="main.js" defer></script>
     <title>JS Calculator</title>
 </head>
 <body>
     <div class="flex-container">
-        <button class="flex-item" id="func">C</button>
         <div class="flex-item" id="display">
             <div>
             </div>
         </div>
+        <button class="flex-item">^</button>
+        <button class="flex-item">(</button>
+        <button class="flex-item">)</button>
+        <button class="flex-item" id="func">C</button>
         <button class="flex-item">7</button>
         <button class="flex-item">8</button>
         <button class="flex-item">9</button>
@@ -27,8 +31,8 @@
         <button class="flex-item">2</button>
         <button class="flex-item">3</button>
         <button class="flex-item" id="op">-</button>
-        <button class="flex-item">0</button>
         <button class="flex-item">.</button>
+        <button class="flex-item">0</button>
         <button class="flex-item" id="func">=</button>
         <button class="flex-item" id="op">+</button>
     </div>

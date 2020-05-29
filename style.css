@@ -1,3 +1,8 @@
+:root {
+    --primary-bg-color: black;
+    --secondary-bg-color: darkgray;
+}
+
 *{
     margin: 0 auto;
     font-family: 'DM Mono', monospace;
@@ -12,7 +17,7 @@
 }
 
 .flex-item {
-    background-color: #4F772D;
+    background-color: var(--primary-bg-color);
     height: 75px;
     font-size: 25px;
     color: white;
@@ -26,10 +31,16 @@ button {
 
 button:hover {
     cursor: pointer;
+    /*background-color: var(--secondary-bg-color);*/
+}
+
+#change-palette {
+    font-size: 15px;
+    width: 150px;
 }
 
 #display {
-    width: 225px;
+    width: 300px;
     text-align: right;
     line-height: 75px;
 }
@@ -38,16 +49,12 @@ button:hover {
     padding-right: 10px;
 }
 
-#op {
+/*#op, #func{
     color: black;
-    background-color: #90A955;
+    background-color: var(--secondary-bg-color);
 }
 
-#op:hover {
-    background-color: #4F772D;
+#op:hover, #func:hover{
+    background-color: var(--primary-bg-color);
     color: white;
-}
-
-#func:hover {
-    background-color: #90A955;
-}
+}*/
